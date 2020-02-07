@@ -16,7 +16,7 @@
 ##### 範例
 
 ```javascript
-Gettour.booking.staticSearch({
+Gettour.booking().staticSearch({
     coordinates: [2.170625, 41.37446],
     distance: 0.5,
     star: { min: 3, max: 4 }
