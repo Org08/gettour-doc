@@ -95,6 +95,63 @@ Gettour.booking(supplier).prebook({
 
 - `rateKey: String` 能夠代表此訂房的 key. 不同供應商會有不同定義.
 
-> 預定要把這段包在前端 API 元件裡, 直接讓第三方開發者不需要處理各家不同的情況.
+> 目前的範例為 HotelBeds
+
+> 預定要把這段包在前端 API 元件裡, 讓第三方開發者不需要處理各家不同的情況.
 
 ---
+
+### book
+
+執行過 prebook 步驟後, 用原資料(或是同意更新後的資料)送出.
+
+##### 範例
+
+```javascript
+Gettour.booking(supplier).book({
+    holder: {
+        name: "IntegrationTestFirstName",
+        surname: "IntegrationTestLastName"
+    },
+    rooms: [{
+        rateKey: "20191201|20191204|W|102|60819|DBL.DX|CG-TODOS1|BB||1~1~0||N@03~~23e2d8~945529463~N~548A85CCE4E84A0157395802663200AATW0000001000000000522f289",
+        paxes: [{
+            roomId: "1",
+            type: "AD",
+            name: "First Adult Name",
+            surname: "Surname"
+        }, {
+            roomId: "1",
+            type: "CH",
+            name: "First Child Name",
+            surname: "Surname"
+        }]
+    }]
+});
+```
+
+- `supplier: String` 供應商名稱. 對於不同供應商, 會有不同資訊需要傳送.
+
+- `holder: Object` 訂房者.
+    - `name: String` 訂房者名.
+    - `surname: String` 訂房者姓.
+
+- `rooms: [Object]` 預定的房間資料.
+    - `rateKey: String` 能夠代表此訂房的 key. 不同供應商會有不同定義.
+    - `paxes: [Object]` 房客資料.
+        - `roomId: String` 房間 ID. 當同一房有多個房客時, 是用此值來分辨誰在同一房.
+        - `type: String` AD: 成人. CH: 兒童.
+        - `name: String` 房客名.
+        - `surname: String` 房客姓.
+
+> 目前的範例為 HotelBeds
+
+> 預定要把這段包在前端 API 元件裡, 讓第三方開發者不需要處理各家不同的情況.
+
+---
+
+
+
+
+
+
