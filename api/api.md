@@ -33,11 +33,9 @@
 
 ## content
 
-- [Intro](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/System.md)
+- [Intro](https://github.com/Org08/gettour-doc/blob/master/api/content.md#content)
 
-- [Functions](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/System.md#functions)
-  - [connect](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/System.md#connect)
-  - [login](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/System.md#login)
-  - [logout](https://github.com/Org08/sdb-nexus/blob/master/docs/API/SrAPI/System.md#logout)
+- [Functions](https://github.com/Org08/gettour-doc/blob/master/api/content.md#functions)
+  - [syncHotel](https://github.com/Org08/gettour-doc/blob/master/api/content.md#synchotel)
 
 ---
