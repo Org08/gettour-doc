@@ -37,7 +37,7 @@ Gettour.booking.staticSearch({
 
 ### search
 
-用來自`staticSearch`取得的`HotelID`, 配合`入住退房日期` `大人小孩人數`等訂房資訊, 實際向各家供應商查詢即時空房.
+用來自 [staticSearch](https://github.com/Org08/gettour-doc/blob/master/api/booking.md#staticsearch) 取得的 `HotelID`, 配合 `入住退房日期` `大人小孩人數` 等訂房資訊, 實際向各家供應商查詢即時空房.
 
 ##### 範例
 
@@ -62,7 +62,7 @@ Gettour.booking("HotelBeds").search(supplier, {
     - `adults: Number` 成人人數.
     - `children: Number` 兒童人數.
 
-- `hotels: [String]` 來自 staticSearch 的 `HotelID`, 限制只對各廠商搜尋這些飯店.
+- `hotels: [String]` 來自 [staticSearch](https://github.com/Org08/gettour-doc/blob/master/api/booking.md#staticsearch) 的 `HotelID`, 限制只對各廠商搜尋這些飯店.
 
 - `from: Number` 從第幾筆資料開始回傳.
 
