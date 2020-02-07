@@ -180,6 +180,28 @@ Gettour.booking().list({
 
 ---
 
+### detail
 
+從列出的訂房紀錄裡, 進一步調閱細節資料.
+
+這會向該紀錄所屬的供應商取得即時資料.
+
+##### 範例
+
+```javascript
+Gettour.booking(supplier).detail({
+    id: "102-10544416",
+});
+```
+
+- `supplier: String` 供應商名稱. 對於不同供應商, 會有不同資訊需要傳送.
+
+- `id: String` 訂房 ID.
+
+> 目前的範例為 HotelBeds
+
+> 預定要把這段包在前端 API 元件裡, 讓第三方開發者不需要處理各家不同的情況.
+
+---
 
 
