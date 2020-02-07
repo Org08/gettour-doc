@@ -14,10 +14,10 @@
 ##### 範例
 
 ```javascript
-SrAPI.connect(url)
+Gettour.connect(url)
 ```
 
-- `url: String` sdb-nexus server 的 ip 和 port 組成的字串.
+- `url: String` gettour-core server 的 ip 和 port 組成的字串.
 
 ---
 
@@ -30,7 +30,7 @@ SrAPI.connect(url)
 ##### 範例
 
 ```javascript
-SrAPI.login({
+Gettour.login({
     username: username,
     password: password
 })
@@ -50,7 +50,7 @@ SrAPI.login({
 ##### 範例
 
 ```javascript
-SrAPI.logout()
+Gettour.logout()
 ```
 
 ---
