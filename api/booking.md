@@ -7,6 +7,8 @@
 
 ### staticSearch
 
+搜尋靜態資料.
+
 用前端工具取得 `座標`, 配合 `星級` `設施` 等靜態條件搜尋. 目標是取得本系統內符合條件`飯店`, 對應每家供應商的 `HotelID`. 這些 `HotelID` 是用來向各家查詢即時資料時, 限制搜尋範圍用的.
 
 這個搜尋所取得的資料可以用來顯示飯店的基本資訊.
@@ -34,6 +36,8 @@ Gettour.booking().staticSearch({
 ---
 
 ### search
+
+搜尋即時資料.
 
 用來自 [staticSearch](https://github.com/Org08/gettour-doc/blob/master/api/booking.md#staticsearch) 取得的 `HotelID`, 配合 `入住退房日期` `大人小孩人數` 等訂房資訊, 實際向各家供應商查詢即時空房.
 
@@ -199,6 +203,115 @@ Gettour.booking(supplier).detail({
 - `id: String` 訂房 ID.
 
 > 目前的範例為 HotelBeds
+
+> 預定要把這段包在前端 API 元件裡, 讓第三方開發者不需要處理各家不同的情況.
+
+---
+
+### update
+
+修改訂房.
+
+##### 範例
+
+```javascript
+Gettour.booking(supplier).update({
+    id: "102-10544416",
+    booking: {
+        "reference": "102-10544416",
+        "clientReference": "INTEGRATIONAGENCY-XDDD",
+        "creationDate": "2019-10-28",
+        "status": "CONFIRMED",
+        "modificationPolicies": {
+            "cancellation": true,
+            "modification": false
+        },
+        "creationUser": "z9p5xex7p8jfvzpknkukpw6x",
+        "holder": {
+            "name": "INTEGRATIONTESTFIRSTNAME",
+            "surname": "INTEGRATIONTESTLASTNAME"
+        },
+        "hotel": {
+            "checkOut": "2019-10-31",
+            "checkIn": "2019-10-30",
+            "code": 69,
+            "name": "TRYP Barcelona Apolo Hotel",
+            "categoryCode": "4EST",
+            "categoryName": "4 STARS",
+            "destinationCode": "BCN",
+            "destinationName": "Barcelona",
+            "zoneCode": 44,
+            "zoneName": "Parallel",
+            "latitude": "41.37446",
+            "longitude": "2.170625",
+            "rooms": [
+                {
+                    "status": "CONFIRMED",
+                    "id": 1,
+                    "code": "SGL.ST",
+                    "name": "SINGLE STANDARD",
+                    "supplierReference": "TS1572266134059",
+                    "paxes": [
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "First Adult Name",
+                            "surname": "Surname"
+                        }
+                    ],
+                    "rates": [
+                        {
+                            "rateClass": "NOR",
+                            "net": "132.20",
+                            "rateComments": "Car park YES (with additional debit notes) 22.00 EUR Per unit/night. Key Collection 15:00 - . Check-in hour 15:00 - . Deposit on arrival. Identification card at arrival.",
+                            "paymentType": "AT_WEB",
+                            "packaging": false,
+                            "boardCode": "RO",
+                            "boardName": "ROOM ONLY",
+                            "cancellationPolicies": [
+                                {
+                                    "amount": "55.48",
+                                    "from": "2019-10-22T23:59:00+02:00"
+                                },
+                                {
+                                    "amount": "132.20",
+                                    "from": "2019-10-27T23:59:00+01:00"
+                                }
+                            ],
+                            "rooms": 1,
+                            "adults": 1,
+                            "children": 0
+                        }
+                    ]
+                }
+            ],
+            "totalNet": "132.20",
+            "currency": "USD",
+            "supplier": {
+                "name": "MIKI Travel Limited",
+                "vatNumber": "ESB38877676"
+            }
+        },
+        "remark": "Booking remarks are to be written here.",
+        "invoiceCompany": {
+            "code": "SG1",
+            "company": "HOTELBEDS PTE. LTD",
+            "registrationNumber": "M2-0084578-1"
+        },
+        "totalNet": 132.2,
+        "pendingAmount": 132.2,
+        "currency": "USD"
+    }
+});
+```
+
+- `supplier: String` 供應商名稱. 對於不同供應商, 會有不同資訊需要傳送.
+
+- `id: String` 訂房 ID.
+
+> 目前的範例為 HotelBeds
+
+> 暫時省略詳細資料說明, 因為實在太雜了. 這裡怎樣都應該包在元件內部做掉.
 
 > 預定要把這段包在前端 API 元件裡, 讓第三方開發者不需要處理各家不同的情況.
 
