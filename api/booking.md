@@ -150,7 +150,35 @@ Gettour.booking(supplier).book({
 
 ---
 
+### list
 
+列出訂房紀錄.
+
+這裡取得的是本地資料庫所存的紀錄.
+
+##### 範例
+
+```javascript
+Gettour.booking().list({
+    supplier: "HotelBeds",
+    start: "2019-12-01",
+    end: "2019-12-10",
+    from: 1,
+    to: 20,
+});
+```
+
+- `supplier: String` 供應商名稱.
+
+- `start: String` 入住日期.
+
+- `end: String` 退房日期.
+
+- `from: Number` 從第幾筆資料開始回傳.
+
+- `to: Number` 回傳到第幾筆資料.
+
+---
 
 
 
