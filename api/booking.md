@@ -42,7 +42,7 @@ Gettour.booking.staticSearch({
 ##### 範例
 
 ```javascript
-Gettour.booking("HotelBeds").search(supplier, {
+Gettour.booking(supplier).search({
     stay: { checkIn: "2010-03-01", checkOut: "2020-03-10", },
     occupancies: [{ rooms: 1, adults: 1, children: 0, }],
     hotels: [69, 57, 395063, 388537, 229135, 49396],
