@@ -43,7 +43,7 @@ SrAPI.login({
 
 ---
 
-### logput
+### logout
 
 登出
 
