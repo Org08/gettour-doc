@@ -77,9 +77,66 @@
 HotelSchema.index({ location: "2dsphere" });
 ```
 
+---
 
+# Booking
 
+## BookingSchema
 
+```javascript
+{
+    supplier: { type: String, index: true, trim: true, required: [true, "supplier"] },  // 供應商名稱
+    id: { type: String, index: true, trim: true, required: [true, "no id"] },           // 在各家供應商辨識此 booking 的 id, 例如 HotelBeds 的 "reference"
+
+    holder: { type: HolderSchema },
+    checkIn: { type: Date, index: true },
+    checkOut: { type: Date, index: true },
+    hotelName: { type: String, index: true, trim: true },
+
+    pendingAmount: { type: Number },
+    totalNet: { type: Number },
+    remark: { type: String, default: "" },
+
+    agentID: { type: String, index: true, trim: true },                                 // 本系統裡的 agent
+
+    status: { type: Number, default: 0 },                                               // 0: CANCELLED, 1: CONFIRMED
+    updated: { type: Date, default: Date.now }
+}
+```
+
+底下是子項目的細節
+
+### HolderSchema
+
+holder 姓名
+
+```javascript
+{
+    name: { type: String, index: true },
+    surname: { type: String, index: true },
+}
+```
+
+---
+
+# User
+
+## UserSchema
+
+```javascript
+{
+    username: { type: String, index: true, trim: true, unique: true, required: [true, "no username"] },
+    nickname: { type: String, index: true, trim: true, default: "----" },
+
+    password: { type: String, trim: true }, // after bcrypt
+
+    group: { type: String, default: "client" },                       // client, staff, admin
+    status: { type: Number, default: 0 },                             // -1:停用, 0:未啟用, 1:啟用
+    updated: { type: Date, default: Date.now }
+}
+```
+
+---
 
 
 
