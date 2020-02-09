@@ -5,7 +5,7 @@
 
 - [API](https://github.com/Org08/gettour-doc/blob/master/api/api.md)
 
-- DB Schema
+- [DB Schema](https://github.com/Org08/gettour-doc/blob/master/DB/Schema.md)
 
 - 頁面
 
