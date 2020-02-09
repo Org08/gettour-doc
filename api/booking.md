@@ -9,6 +9,8 @@
 
 ## Functions
 
+---
+
 ### staticSearch
 
 搜尋靜態資料.
