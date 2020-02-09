@@ -7,6 +7,8 @@
 
 ## Functions
 
+---
+
 ### syncHotel
 
 同步飯店靜態資料.
