@@ -5,6 +5,8 @@
 
 ## Functions
 
+---
+
 ### connect
 
 連線
