@@ -37,5 +37,11 @@
 
 - [Functions](https://github.com/Org08/gettour-doc/blob/master/api/content.md#functions)
   - [syncHotel](https://github.com/Org08/gettour-doc/blob/master/api/content.md#synchotel)
+  - [syncAccommodationType](https://github.com/Org08/gettour-doc/blob/master/api/content.md#syncaccommodationtype)
+  - [syncBoard](https://github.com/Org08/gettour-doc/blob/master/api/content.md#syncboard)
+  - [syncCurrency](https://github.com/Org08/gettour-doc/blob/master/api/content.md#synccurrency)
+  - [syncDestination](https://github.com/Org08/gettour-doc/blob/master/api/content.md#syncdestination)
+  - [syncLanguage](https://github.com/Org08/gettour-doc/blob/master/api/content.md#synclanguage)
+  - [syncRoomType](https://github.com/Org08/gettour-doc/blob/master/api/content.md#syncroomtype)
 
 ---
