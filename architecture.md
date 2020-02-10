@@ -42,3 +42,9 @@
 ### 查詢訂房
 
 透過 `API Tools` 查詢本系統資料庫的紀錄, 當需要細節或刷新資料時, 再透過 `API Tools` 像此訂單的供應商查詢即時資料.
+
+---
+
+---
+
+[回目錄](https://github.com/Org08/gettour-doc/blob/master/README.md)
