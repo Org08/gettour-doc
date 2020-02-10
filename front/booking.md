@@ -54,3 +54,11 @@
 - 列出符合[篩選面板](https://github.com/Org08/gettour-doc/blob/master/front/booking.md#%E7%AF%A9%E9%81%B8%E9%9D%A2%E6%9D%BF)的特定飯店房間.
 
 - 可以開啟房間詳細資料, 並設定訂房資料和送出訂房.
+
+
+---
+
+| [回目錄](https://github.com/Org08/gettour-doc/blob/master/README.md) |
+[回前端介面](https://github.com/Org08/gettour-doc/blob/master/README.md) |
+
+---
