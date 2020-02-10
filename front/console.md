@@ -70,11 +70,15 @@
 
 ### 篩選面板
 
-- 篩選要顯示的紀錄
+- 篩選要顯示的紀錄.
+
+- 可篩選`訂單編號``供應商``Agent``國家城市``飯店``顧客``下單日期``保住日期``入住日期``退房日期``訂單狀態`
 
 ### 訂單列表
 
-- 根據[篩選面板](https://github.com/Org08/gettour-doc/blob/master/front/booking.md#%E7%AF%A9%E9%81%B8%E9%9D%A2%E6%9D%BF)顯示出符合條件的訂單.
+- 根據[篩選面板](https://github.com/Org08/gettour-doc/blob/master/front/console.md#%E7%AF%A9%E9%81%B8%E9%9D%A2%E6%9D%BF-1)顯示出符合條件的訂單.
+
+- 點選列表項目可以開啟訂單細節. 並可視訂單狀況執行修改或刪除等操作.
 
 ## 帳務
 
