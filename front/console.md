@@ -105,9 +105,42 @@
 
 ### 供應商列表
 
-- 根據[篩選面板](https://github.com/Org08/gettour-doc/blob/master/front/console.md#%E7%AF%A9%E9%81%B8%E9%9D%A2%E6%9D%BF-1)顯示出符合條件的供應商.
+- 根據[篩選面板](https://github.com/Org08/gettour-doc/blob/master/front/console.md#%E7%AF%A9%E9%81%B8%E9%9D%A2%E6%9D%BF-2)顯示出符合條件的供應商.
 
 - 點選列表項目可以開啟供應商子功能選單.
+
+### 供應商子功能
+
+#### 基本資料
+
+修改供應商基本資料.
+
+#### 訂房紀錄
+
+如同一般[訂房紀錄](https://github.com/Org08/gettour-doc/blob/master/front/console.md#%E8%A8%82%E6%88%BF%E7%B4%80%E9%8C%84), 只是範圍限定在此供應商.
+
+#### 保證金
+
+- 設定對應此供應商的保證金.
+
+- 可以輸入 `金額` 和 `備註`, 並操作 `存入` 或 `提出`.
+
+- 所有存提紀錄依時間顯示於列表上.
+
+#### 帳務
+
+如同一般[帳務](https://github.com/Org08/gettour-doc/blob/master/front/console.md#%E5%B8%B3%E5%8B%99), 只是範圍限定在此供應商.
+
+#### 加減價
+
+- 設定對應此供應商的加減價.
+
+- 可設定預設的加減價, 會套用在所有沒有額外設定過的 `國家` `城市` `酒店`.
+
+- 所有加減價都有 `百分比` 和 `實際金額` 兩類.
+
+- 加減價會依序以 `國家` `城市` `酒店` 向下套用. 若下層有設定, 則以下層為準, 反之則使用上層的值.
+
 
 ---
 
