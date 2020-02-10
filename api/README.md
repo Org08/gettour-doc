@@ -45,3 +45,10 @@
   - [syncRoomType](https://github.com/Org08/gettour-doc/blob/master/api/content.md#syncroomtype)
 
 ---
+
+
+---
+
+---
+
+[回目錄](https://github.com/Org08/gettour-doc/blob/master/README.md)
