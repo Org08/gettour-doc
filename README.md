@@ -13,7 +13,10 @@
     - [訂房/修改/取消](https://github.com/Org08/gettour-doc/blob/master/architecture.md#%E8%A8%82%E6%88%BF%E4%BF%AE%E6%94%B9%E5%8F%96%E6%B6%88)
     - [查詢訂房](https://github.com/Org08/gettour-doc/blob/master/architecture.md#%E6%9F%A5%E8%A9%A2%E8%A8%82%E6%88%BF)
 
-- [API](https://github.com/Org08/gettour-doc/blob/master/api/api.md)
+- [API](https://github.com/Org08/gettour-doc/blob/master/api/README.md)
+  - [system](https://github.com/Org08/gettour-doc/blob/master/api/README.md#system)
+  - [booking](https://github.com/Org08/gettour-doc/blob/master/api/README.md#booking)
+  - [content](https://github.com/Org08/gettour-doc/blob/master/api/README.md#content)
 
 - [DB Schema](https://github.com/Org08/gettour-doc/blob/master/DB/Schema.md)
 
