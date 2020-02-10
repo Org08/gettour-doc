@@ -156,7 +156,7 @@
 
 - 可篩選 `統編` `名稱` `負責人` `電話`.
 
-### 供應商列表
+### 旅行社列表
 
 - 根據[篩選面板](https://github.com/Org08/gettour-doc/blob/master/front/console.md#%E7%AF%A9%E9%81%B8%E9%9D%A2%E6%9D%BF-3)顯示出符合條件的旅行社.
 
