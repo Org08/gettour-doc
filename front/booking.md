@@ -17,7 +17,7 @@
 
 - 以選擇的位置為圓心, 標示出所設定的範圍.
 
-- 根據[篩選](https://github.com/Org08/gettour-doc/blob/master/front/booking.md#%E7%AF%A9%E9%81%B8%E9%9D%A2%E6%9D%BF)條件, 在範圍內顯示出飯店.
+- 根據[篩選面板](https://github.com/Org08/gettour-doc/blob/master/front/booking.md#%E7%AF%A9%E9%81%B8%E9%9D%A2%E6%9D%BF), 在範圍內顯示出飯店.
 
 - 可拖曳外圈來調整範圍. 調整完會刷新符合條件的飯店.
 
