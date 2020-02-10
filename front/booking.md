@@ -31,9 +31,9 @@
 
 - 分為搜尋靜態資料的部分, 和查詢即時空房資訊的部分. 這只對系統有差別, 對使用者則沒有影響.
 
-- 位置欄位可以輸入地址或關鍵字, 所查詢到的地點會即時反應在地圖上. 反之若從地圖上移動中心點, 新的地址也會顯示在位置欄位.
+- 位置欄位可以輸入地址或關鍵字, 所查詢到的地點會即時反應在 [地圖](https://github.com/Org08/gettour-doc/blob/master/front/booking.md#%E5%9C%B0%E5%9C%96) 上. 反之若從 [地圖](https://github.com/Org08/gettour-doc/blob/master/front/booking.md#%E5%9C%B0%E5%9C%96) 上移動中心點, 新的地址也會顯示在位置欄位.
 
-- 範圍欄位也會即時影響地圖上的範圍圓圈. 反之若從地圖上調整範圍, 新的範圍也會顯示在範圍欄位.
+- 範圍欄位也會即時影響地圖上的範圍圓圈. 反之若從 [地圖](https://github.com/Org08/gettour-doc/blob/master/front/booking.md#%E5%9C%B0%E5%9C%96) 上調整範圍, 新的範圍也會顯示在範圍欄位.
 
 - 星級可以用大於小於和等於來更進一步控制條件.
 
@@ -41,11 +41,11 @@
 
 ## 飯店列表
 
-- 根據篩選面板與地圖的設定, 顯示出符合條件的飯店.
+- 根據篩選面板與 [地圖](https://github.com/Org08/gettour-doc/blob/master/front/booking.md#%E5%9C%B0%E5%9C%96) 的設定, 顯示出符合條件的飯店.
 
-- 點選飯店會同時在地圖上選取該飯店的標示, 並顯示出簡易的飯店資訊.
+- 點選飯店會同時在 [地圖](https://github.com/Org08/gettour-doc/blob/master/front/booking.md#%E5%9C%B0%E5%9C%96) 上選取該飯店的標示, 並顯示出簡易的飯店資訊.
 
-- 當在地圖上點選飯店標示, 會同時選取在飯店列表裡的該飯店. 
+- 當在 [地圖](https://github.com/Org08/gettour-doc/blob/master/front/booking.md#%E5%9C%B0%E5%9C%96) 上點選飯店標示, 會同時選取在飯店列表裡的該飯店. 
 
 - 可以開啟此飯店的房間列表.
 
