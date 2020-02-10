@@ -20,6 +20,7 @@
 
 - [DB](https://github.com/Org08/gettour-doc/blob/master/db/README.md)
   - [Schema](https://github.com/Org08/gettour-doc/blob/master/db/Schema.md)
+  - Function
 
 - 前端介面
 
