@@ -18,7 +18,8 @@
   - [booking](https://github.com/Org08/gettour-doc/blob/master/api/README.md#booking)
   - [content](https://github.com/Org08/gettour-doc/blob/master/api/README.md#content)
 
-- [DB Schema](https://github.com/Org08/gettour-doc/blob/master/DB/Schema.md)
+- [DB](https://github.com/Org08/gettour-doc/blob/master/db/README.md)
+  - [Schema](https://github.com/Org08/gettour-doc/blob/master/db/Schema.md)
 
 - 前端介面
 
