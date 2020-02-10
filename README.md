@@ -20,7 +20,7 @@
 
 - [DB](https://github.com/Org08/gettour-doc/blob/master/db/README.md)
   - [Schema](https://github.com/Org08/gettour-doc/blob/master/db/Schema.md)
-  - Function
+  - [Function](https://github.com/Org08/gettour-doc/blob/master/db/Function.md)
 
 - [前端介面](https://github.com/Org08/gettour-doc/blob/master/front/README.md)
   - [登入](https://github.com/Org08/gettour-doc/blob/master/front/console.md#%E7%99%BB%E5%85%A5)
