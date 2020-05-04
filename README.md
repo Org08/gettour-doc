@@ -33,4 +33,6 @@
   - [帳號](https://github.com/Org08/gettour-doc/blob/master/front/console.md#%E5%B8%B3%E8%99%9F)
   - [系統](https://github.com/Org08/gettour-doc/blob/master/front/console.md#%E5%B8%B3%E8%99%9F)
 
-
+- [refs](https://github.com/Org08/gettour-doc/tree/master/refs)
+  - [HotelBeds](https://github.com/Org08/gettour-doc/blob/master/refs/HotelBeds.md)
+  - [WebBeds](https://github.com/Org08/gettour-doc/blob/master/refs/WebBeds.md)
